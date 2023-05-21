@@ -1,0 +1,9 @@
+.utils-list li::after {
+    content: ";";
+}
+
+.box p {
+    text-indent: 10px;
+    text-align: justify;
+    margin: 1rem 0;
+}

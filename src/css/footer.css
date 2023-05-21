@@ -1,0 +1,66 @@
+@import url("./global.css");
+
+:root {
+    --footer-text-color: #fff;
+    --footer-text-color-link-hover: #ddd;
+}
+
+.pg-footer {
+    padding: 1rem;
+    background: var(--color-04);
+}
+
+.pg-footer hr {
+    color: var(--footer-text-color);
+    width: 60%;
+    margin: 1.5rem auto;
+}
+
+.pg-footer .author-info img {
+    display: block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.pg-footer .author-info .name {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--footer-text-color);
+}
+
+.pg-footer .logo {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: var(--footer-text-color);
+}
+
+.pg-footer .comlumns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pg-footer .links .title {
+    color: var(--footer-text-color);
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.pg-footer .links li a {
+    color: var(--footer-text-color);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all .4s ease;
+}
+
+.pg-footer .links li a:hover {
+    color: var(--footer-text-color-link-hover);
+    text-decoration: underline;
+    font-size: 1rem;
+}

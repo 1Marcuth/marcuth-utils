@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+:root {
+    --color-01: #3B4EFF;
+    --color-02: #1E4FE3;
+    --color-03: #2D7FFA;
+    --color-04: #1E8AE3;
+    --color-05: #9EDFFA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 2rem 1rem;
+}

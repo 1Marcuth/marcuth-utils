@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+@keyframes error-404-animation {
+    0% {
+        transform: scale(1) translate(20px);
+        opacity: 1;
+    }
+
+    25% {
+        transform: translate(-40px);
+        opacity: .5;
+    }
+
+    50% {
+        transform: translate(-60px);
+        opacity: .3;
+    }
+
+    75% {
+        transform: translate(40px);
+        opacity: .5;
+    }
+
+    100% {
+        transform: scale(1.5) translate(-20px);
+        opacity: 1;
+    }
+}
+
+.indroduction-text {
+    font-family: "VT323", Arial, Helvetica, sans-serif !important;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.error-code {
+    font-family: "VT323", Arial, Helvetica, sans-serif !important;
+    font-size: 14rem !important;
+    font-weight: 900 !important;
+    text-align: center !important;
+    transition: all .4s ease;
+    animation: error-404-animation 1.5s infinite alternate-reverse;
+    background: -webkit-linear-gradient(#000, #ff0000, #eee);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.error-description {
+    font-family: "VT323", Arial, Helvetica, sans-serif !important;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffae00;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+.tags-fetcher-wrapper {
+    padding: 3rem 2rem;
+    margin: 3rem 0;
+    border: 1px solid #eee;
+    border-radius: .5rem;
+}
+
+.tags-fetcher-wrapper .row {
+    padding: 1rem .5rem;
+    margin: 1rem 0;
+}
+
+.tags-fetcher-wrapper .row label {
+    font-weight: bold;
+}
+
+.tags-fetcher-wrapper button, .tags-data-box button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tags-data-box {
+    padding: 3rem 2rem;
+    margin: 3rem 0;
+    border: 1px solid #eee;
+    border-radius: .5rem;
+}
+
+.tags-data-box .title {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.tags-data-box ul li {
+    font-size: 1rem;
+}
+
+.tags-data-box ul li::after {
+    content: ";";
+}

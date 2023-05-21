@@ -1,0 +1,22 @@
+.cpf-generator-wrapper {
+    padding: 3rem 2rem;
+    margin: 3rem 0;
+    border: 1px solid #eee;
+    border-radius: .5rem;
+}
+
+.cpf-generator-wrapper .row {
+    padding: 1rem .5rem;
+    margin: 1rem 0;
+}
+
+.cpf-generator-wrapper .row label {
+    font-weight: bold;
+}
+
+.cpf-generator-wrapper button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
