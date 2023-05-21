@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/marcuth-utils/static/css/main.57c2ef90.css",
-    "main.js": "/marcuth-utils/static/js/main.9f0d0ae2.js",
+    "main.js": "/marcuth-utils/static/js/main.2e9a9428.js",
     "static/js/787.fb87aa3c.chunk.js": "/marcuth-utils/static/js/787.fb87aa3c.chunk.js",
     "index.html": "/marcuth-utils/index.html",
     "main.57c2ef90.css.map": "/marcuth-utils/static/css/main.57c2ef90.css.map",
-    "main.9f0d0ae2.js.map": "/marcuth-utils/static/js/main.9f0d0ae2.js.map",
+    "main.2e9a9428.js.map": "/marcuth-utils/static/js/main.2e9a9428.js.map",
     "787.fb87aa3c.chunk.js.map": "/marcuth-utils/static/js/787.fb87aa3c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57c2ef90.css",
-    "static/js/main.9f0d0ae2.js"
+    "static/js/main.2e9a9428.js"
   ]
 }
