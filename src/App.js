@@ -31,7 +31,7 @@ function App() {
                 <Route path="/tools/url-shortener" element={<UrlShortener/>}/>
                 <Route path="/tools/yt-video-downloader/" element={<YouTubeVideoDownloader/>}/>
                 <Route path="/tools/yt-audio-downloader/" element={<YouTubeAudioFromVideoDownloader/>}/>
-                <Route path="/*" element={<Home/>}/>
+                <Route path="/*" element={<Error404/>}/>
             </Routes>
         </Router>
     )
