@@ -22,6 +22,9 @@ function Footer() {
                     <li>
                         <Link target="_BLANK" to="https://github.com/1Marcuth/tools">Project repository</Link>
                     </li>
+                    <li>
+                        <Link target="_BLANK" to="https://storyset.com/technology">Technology illustrations by Storyset</Link>
+                    </li>
                 </ul>
             </div>
         </footer>

@@ -11,6 +11,7 @@ function Home() {
             <Header/>
             <div className="container">
                 <h1>Marcuth Utils</h1>
+                <img className="main-icon" src="https://cdn.discordapp.com/attachments/1042970956928397315/1110225420344905778/Digital_tools-pana.svg" alt="Home icon"/>
                 <div className="box">
                     <p>Bem-vindo ao Marcuth Utils - seu destino online para uma ampla gama de ferramentas e utilitários! Estamos entusiasmados em apresentar a você uma plataforma abrangente, projetada para tornar a sua vida mais fácil e eficiente.</p>
                     <p>Sabemos que, no mundo moderno, todos nós enfrentamos uma série de tarefas diárias que podem consumir nosso tempo e energia. É por isso que criamos o Marcuth Utils, um site repleto de recursos que visam simplificar seu dia a dia e maximizar sua produtividade.</p>
