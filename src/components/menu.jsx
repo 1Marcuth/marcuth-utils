@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 import { useEffect } from "react"
 
-
 function Menu() {
     function toggleMenuMobile(event) {
         if (event.type === "touchstart") event.preventDefault()

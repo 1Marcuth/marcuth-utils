@@ -44,6 +44,12 @@ function Home() {
                         <li>
                             <Link to="/tools/url-shortener">Encurtador de url</Link>
                         </li>
+                        <li>
+                            <Link to="/tools/yt-video-downloader/">Baixar vídeo do YouTube</Link>
+                        </li>
+                        <li>
+                            <Link to="/tools/yt-audio-downloader/">Baixar aúdio de um vídeo do YouTube</Link>
+                        </li>
                     </ul>
                 </div>
             </div>

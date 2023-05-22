@@ -9,10 +9,8 @@ import Header from "../components/header"
 import "../css/yt-video-tags.css"
 
 async function scrapeYoTubeVideoKeywords(url) {
-    console.log(url)
-    
     const response = await axios.get(
-        "https://marcuth-utils-api.vercel.app/scraping/youtube-video-keywords/",
+        "https://marcuth-utils-api.fly.dev/scraping/youtube/video/details/",
         { params: { url } }
     )
 

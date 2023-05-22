@@ -10,11 +10,13 @@ import MyIp from "./pages/my-ip"
 import PasswordGenerator from "./pages/password-generator"
 import YouTubeVideoTags from "./pages/yt-video-tags"
 import CpfGenerator from "./pages/cpf-generator"
+import UrlShortener from "./pages/url-shortener"
+import YouTubeVideoDownloader from "./pages/yt-video-downloader"
+import YouTubeAudioFromVideoDownloader from "./pages/yt-audio-downloader"
 import Error404 from "./pages/404"
 
 import "bootstrap/dist/css/bootstrap.css"
 import "./css/global.css"
-import UrlShortener from "./pages/url-shortener"
 
 function App() {
     return (
@@ -27,7 +29,9 @@ function App() {
                 <Route path="/tools/yt-video-tags" element={<YouTubeVideoTags/>}/>
                 <Route path="/tools/cpf-generator" element={<CpfGenerator/>}/>
                 <Route path="/tools/url-shortener" element={<UrlShortener/>}/>
-                <Route path="/*" element={<Error404/>}/>
+                <Route path="/tools/yt-video-downloader/" element={<YouTubeVideoDownloader/>}/>
+                <Route path="/tools/yt-audio-downloader/" element={<YouTubeAudioFromVideoDownloader/>}/>
+                <Route path="/*" element={<Home/>}/>
             </Routes>
         </Router>
     )
