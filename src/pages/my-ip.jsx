@@ -33,6 +33,7 @@ function MyIp() {
             <Header/>
             <div className="container">
                 <h1>Meu endereço Ip</h1>
+                <ins class="surfe-be" data-sid="377729"></ins>
                 <div className="alert-box">{alert}</div>
                 <p>Seu endereço Ip é: <b><CopyableText>{ipAddress ? ipAddress : "???"}</CopyableText></b></p>
             </div>

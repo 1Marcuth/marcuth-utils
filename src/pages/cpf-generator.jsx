@@ -61,6 +61,7 @@ function CpfGenerator() {
             <Header/>
             <div className="container">
                 <h1>Gerador de CPF</h1>
+                <ins class="surfe-be" data-sid="377729"></ins>
                 <div className="cpf-generator-wrapper">
                     <div className="alert-box">{alert}</div>
                     <div className="row">

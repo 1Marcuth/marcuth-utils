@@ -17,6 +17,7 @@ function HtmlEditor() {
             <Header/>
             <div className="container">
                 <h1>Editor HTML</h1>
+                <ins class="surfe-be" data-sid="377729"></ins>
                 <div className="html-input-wrapper">
                     <h2 className="title">Entrada</h2>
                     <textarea
