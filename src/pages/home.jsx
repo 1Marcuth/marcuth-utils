@@ -21,7 +21,6 @@ function Home() {
                     <p>No Marcuth Utils, valorizamos a simplicidade e a usabilidade. Nossas ferramentas são projetadas com uma interface intuitiva e amigável, para que você possa começar a usá-las imediatamente, sem complicações. Além disso, priorizamos a segurança e a confidencialidade dos seus dados, garantindo que suas informações estejam protegidas e mantidas em total sigilo.</p>
                     <p>Como equipe, estamos empenhados em fornecer constantemente atualizações e aprimoramentos para oferecer uma experiência cada vez melhor. Valorizamos o feedback dos nossos usuários e estamos sempre abertos a sugestões para melhorar ainda mais nossas ferramentas e adicionar recursos que sejam relevantes para você.</p>
                     <p>Então, não perca mais tempo procurando por soluções fragmentadas. Explore o Marcuth Utils hoje mesmo e descubra como nossas ferramentas podem simplificar sua vida, aprimorar sua produtividade e ajudá-lo a alcançar o sucesso em suas tarefas diárias. Estamos aqui para ajudá-lo a se destacar e alcançar o máximo potencial.</p>
-                    <AnonymusAd/>
                 </div>
                 <hr/>
                 <h2>Lista de utilitários</h2>
