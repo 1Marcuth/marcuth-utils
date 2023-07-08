@@ -3,11 +3,11 @@ import { useState } from "react"
 import axios from "axios"
 
 import CopyableText from "../components/copyable-text"
+import AnonymusAd from "../components/anonymus-ad"
 import Footer from "../components/footer"
 import Header from "../components/header"
 
 import "../css/url-shortener.css"
-import SurfeProAd from "../components/safepro-ad"
 
 async function shortenUrl(url) {
     const response = await axios.get(`https://cdpt.in/shorten?url=${url}`)
@@ -41,7 +41,7 @@ function UrlShortener() {
             <Header/>
             <div className="container">
                 <h1>Encurtador de Url</h1>
-                <SurfeProAd/>
+                <AnonymusAd/>
                 <div className="url-shortener-wrapper">
                     <div className="alert-box">{alert}</div>
                     <div className="row">

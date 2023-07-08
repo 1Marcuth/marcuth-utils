@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import SurfeProAd from "../components/safepro-ad"
+import AnonymusAd from "../components/anonymus-ad"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
@@ -18,7 +18,7 @@ function HtmlEditor() {
             <Header/>
             <div className="container">
                 <h1>Editor HTML</h1>
-                <SurfeProAd/>
+                <AnonymusAd/>
                 <div className="html-input-wrapper">
                     <h2 className="title">Entrada</h2>
                     <textarea

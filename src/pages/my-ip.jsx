@@ -3,7 +3,7 @@ import { Alert } from "react-bootstrap"
 import axios from "axios"
 
 import CopyableText from "../components/copyable-text"
-import SurfeProAd from "../components/safepro-ad"
+import AnonymusAd from "../components/anonymus-ad"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
@@ -34,7 +34,7 @@ function MyIp() {
             <Header/>
             <div className="container">
                 <h1>Meu endereço Ip</h1>
-                <SurfeProAd/>
+                <AnonymusAd/>
                 <div className="alert-box">{alert}</div>
                 <p>Seu endereço Ip é: <b><CopyableText>{ipAddress ? ipAddress : "???"}</CopyableText></b></p>
             </div>

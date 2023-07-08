@@ -2,11 +2,12 @@ import { Alert, Button } from "react-bootstrap"
 import { useState } from "react"
 
 import CopyableText from "../components/copyable-text"
+import AnonymusAd from "../components/anonymus-ad"
 import Footer from "../components/footer"
 import Header from "../components/header"
 
 import "../css/cpf-generator.css"
-import SurfeProAd from "../components/safepro-ad"
+
 
 function generateCpf(withDot) {
     const number1 = generateRandomNumber()
@@ -62,7 +63,7 @@ function CpfGenerator() {
             <Header/>
             <div className="container">
                 <h1>Gerador de CPF</h1>
-                <SurfeProAd/>
+                <AnonymusAd/>
                 <div className="cpf-generator-wrapper">
                     <div className="alert-box">{alert}</div>
                     <div className="row">
