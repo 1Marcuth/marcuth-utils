@@ -50,7 +50,7 @@ function YouTubeVideoTags() {
             <Header/>
             <div className="container">
                 <h1>Tags de um vídeo do YouTube</h1>
-                <AnonymusAd/>
+                <div id="a-ads"/>
                 <div className="tags-fetcher-wrapper">
                     <div className="alert-box">{alert}</div>
                     <div className="row">

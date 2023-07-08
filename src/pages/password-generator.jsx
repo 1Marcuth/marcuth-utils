@@ -78,7 +78,7 @@ function PasswordGenerator() {
             <Header/>
             <div className="container">
                 <h1>Gerador de senhas</h1>
-                <AnonymusAd/>
+                <div id="a-ads"/>
                 <div className="generator-form-wrapper">
                     <div className="alert-box">{alert}</div>
                     <div className="row">

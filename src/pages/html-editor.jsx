@@ -18,7 +18,7 @@ function HtmlEditor() {
             <Header/>
             <div className="container">
                 <h1>Editor HTML</h1>
-                <AnonymusAd/>
+                <div id="a-ads"/>
                 <div className="html-input-wrapper">
                     <h2 className="title">Entrada</h2>
                     <textarea

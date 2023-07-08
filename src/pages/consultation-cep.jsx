@@ -42,7 +42,7 @@ function ConsultationCep() {
             <Header/>
             <div className="container">
                 <h1>Consulta de cep</h1>
-                <AnonymusAd/>
+                <div id="a-ads"/>
                 <div className="consult-form-wrapper">
                 <div id="alert-box">{alert}</div>
                     <div className="row">

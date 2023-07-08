@@ -63,7 +63,7 @@ function CpfGenerator() {
             <Header/>
             <div className="container">
                 <h1>Gerador de CPF</h1>
-                <AnonymusAd/>
+                <div id="a-ads"/>
                 <div className="cpf-generator-wrapper">
                     <div className="alert-box">{alert}</div>
                     <div className="row">

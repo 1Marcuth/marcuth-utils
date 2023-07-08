@@ -41,7 +41,7 @@ function UrlShortener() {
             <Header/>
             <div className="container">
                 <h1>Encurtador de Url</h1>
-                <AnonymusAd/>
+                <div id="a-ads"/>
                 <div className="url-shortener-wrapper">
                     <div className="alert-box">{alert}</div>
                     <div className="row">

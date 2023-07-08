@@ -19,7 +19,7 @@ function MarkdownEditor() {
             <Header/>
             <div className="container">
                 <h1>Editor Markdown</h1>
-                <AnonymusAd/>
+                <div id="a-ads"/>
                 <div className="markdown-input-wrapper">
                     <h2 className="title">Entrada</h2>
                     <textarea

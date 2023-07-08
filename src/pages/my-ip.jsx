@@ -34,7 +34,7 @@ function MyIp() {
             <Header/>
             <div className="container">
                 <h1>Meu endereço Ip</h1>
-                <AnonymusAd/>
+                <div id="a-ads"/>
                 <div className="alert-box">{alert}</div>
                 <p>Seu endereço Ip é: <b><CopyableText>{ipAddress ? ipAddress : "???"}</CopyableText></b></p>
             </div>
