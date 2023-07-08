@@ -114,6 +114,7 @@ function PasswordGenerator() {
                             className="form-control"
                             id="allow-upper-letters-field"
                             name="allow-upper-letters-field"
+                            onChange={generatePasswordHandler}
                         >
                             <option value="true">Sim</option>
                             <option value="false">Não</option>
@@ -125,6 +126,7 @@ function PasswordGenerator() {
                             className="form-control"
                             id="allow-digits-field"
                             name="allow-digits-field"
+                            onChange={generatePasswordHandler}
                         >
                             <option value="true">Sim</option>
                             <option value="false">Não</option>
@@ -136,6 +138,7 @@ function PasswordGenerator() {
                             className="form-control"
                             id="allow-special-characters-field"
                             name="allow-special-characters-field"
+                            onChange={generatePasswordHandler}
                         >
                             <option value="true">Sim</option>
                             <option value="false">Não</option>

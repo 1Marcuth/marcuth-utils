@@ -24,7 +24,7 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/*" element={<Home/>}/>
+                <Route path="/" element={<Home/>}/>
                 <Route path="/tools/consultation-cep" element={<ConsultationCep/>}/>
                 <Route path="/tools/my-ip" element={<MyIp/>}/>
                 <Route path="/tools/password-generator" element={<PasswordGenerator/>}/>
