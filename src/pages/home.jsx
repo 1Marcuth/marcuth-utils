@@ -59,10 +59,10 @@ function Home() {
                             <Link target="_blank" to="https://ytdl.fun/">Baixar aúdio de um vídeo do YouTube</Link>
                         </li>
                         <li>
-                            <Link target="_blank" to="/tools/makdown-editor">Editor markdown</Link>
+                            <Link to="/tools/makdown-editor">Editor markdown</Link>
                         </li>
                         <li>
-                            <Link target="_blank" to="/tools/html-editor">Editor HTML</Link>
+                            <Link to="/tools/html-editor">Editor HTML</Link>
                         </li>
                     </ul>
                 </div>
