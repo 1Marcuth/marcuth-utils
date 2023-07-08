@@ -3,6 +3,7 @@ import { useState } from "react"
 import axios from "axios"
 
 import CopyableText from "../components/copyable-text"
+import AnonymusAd from "../components/anonymus-ad"
 import Footer from "../components/footer"
 import Header from "../components/header"
 
@@ -49,7 +50,7 @@ function YouTubeVideoTags() {
             <Header/>
             <div className="container">
                 <h1>Tags de um vídeo do YouTube</h1>
-                <iframe data-aa='2234557' src='//acceptable.a-ads.com/2234557' style={{border: '0px',padding: '0',width: '100%',height: '100%',overflow: 'hidden',backgroundColor: 'transparent'}}></iframe>
+                <AnonymusAd/>
                 <div className="tags-fetcher-wrapper">
                     <div className="alert-box">{alert}</div>
                     <div className="row">

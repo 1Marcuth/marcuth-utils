@@ -2,6 +2,7 @@ import { Alert, Button } from "react-bootstrap"
 import { useState } from "react"
 
 import CopyableText from "../components/copyable-text"
+import AnonymusAd from "../components/anonymus-ad"
 import Footer from "../components/footer"
 import Header from "../components/header"
 
@@ -77,7 +78,7 @@ function PasswordGenerator() {
             <Header/>
             <div className="container">
                 <h1>Gerador de senhas</h1>
-                <iframe data-aa='2234557' src='//acceptable.a-ads.com/2234557' style={{border: '0px',padding: '0',width: '100%',height: '100%',overflow: 'hidden',backgroundColor: 'transparent'}}></iframe>
+                <AnonymusAd/>
                 <div className="generator-form-wrapper">
                     <div className="alert-box">{alert}</div>
                     <div className="row">
