@@ -17,10 +17,10 @@ function Footer() {
                 <ul className="links">
                     <span className="title">Links</span>
                     <li>
-                        <Link target="_BLANK" to="https://github.com/1Marcuth/tools">Marcuth GitHub profile</Link>
+                        <Link target="_BLANK" to="https://github.com/1Marcuth/">Marcuth GitHub profile</Link>
                     </li>
                     <li>
-                        <Link target="_BLANK" to="https://github.com/1Marcuth/tools">Project repository</Link>
+                        <Link target="_BLANK" to="https://github.com/1Marcuth/marcuth-utils">Project repository</Link>
                     </li>
                     <li>
                         <Link target="_BLANK" to="https://storyset.com/technology">Technology illustrations by Storyset</Link>

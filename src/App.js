@@ -13,6 +13,8 @@ import CpfGenerator from "./pages/cpf-generator"
 import UrlShortener from "./pages/url-shortener"
 import YouTubeVideoDownloader from "./pages/yt-video-downloader"
 import YouTubeAudioFromVideoDownloader from "./pages/yt-audio-downloader"
+import MarkdownEditor from "./pages/makdown-editor"
+import HtmlEditor from "./pages/html-editor"
 import Error404 from "./pages/404"
 
 import "bootstrap/dist/css/bootstrap.css"
@@ -31,6 +33,8 @@ function App() {
                 <Route path="/tools/url-shortener" element={<UrlShortener/>}/>
                 <Route path="/tools/yt-video-downloader/" element={<YouTubeVideoDownloader/>}/>
                 <Route path="/tools/yt-audio-downloader/" element={<YouTubeAudioFromVideoDownloader/>}/>
+                <Route path="/tools/makdown-editor" element={<MarkdownEditor/>}/>
+                <Route path="/tools/html-editor" element={<HtmlEditor/>}/>
                 <Route path="/*" element={<Error404/>}/>
             </Routes>
         </Router>

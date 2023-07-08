@@ -10,7 +10,7 @@ import "../css/yt-video-tags.css"
 
 async function scrapeYoTubeVideoKeywords(url) {
     const response = await axios.get(
-        "https://marcuth-utils-api.fly.dev/scraping/youtube/video/details/",
+        "https://marcuth-utils-api.marcuth.repl.co/scraping/youtube/video/details/",
         { params: { url } }
     )
 
@@ -49,6 +49,7 @@ function YouTubeVideoTags() {
             <Header/>
             <div className="container">
                 <h1>Tags de um vídeo do YouTube</h1>
+                <iframe data-aa='2234557' src='//acceptable.a-ads.com/2234557' style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;'></iframe>
                 <div className="tags-fetcher-wrapper">
                     <div className="alert-box">{alert}</div>
                     <div className="row">

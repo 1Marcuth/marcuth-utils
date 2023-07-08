@@ -41,6 +41,7 @@ function ConsultationCep() {
             <Header/>
             <div className="container">
                 <h1>Consulta de cep</h1>
+                <iframe data-aa='2234557' src='//acceptable.a-ads.com/2234557' style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;'></iframe>
                 <div className="consult-form-wrapper">
                 <div id="alert-box">{alert}</div>
                     <div className="row">
