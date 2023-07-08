@@ -5,7 +5,7 @@ const SurfeProAd = () => {
         <Fragment>
             <iframe style={{
                 width: "100%",
-                height: "100%",
+                height: "250",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center"
