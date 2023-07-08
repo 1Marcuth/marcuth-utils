@@ -3,8 +3,6 @@ import { Link } from "react-router-dom"
 import "../css/footer.css"
 
 function Footer() {
-
-
     return (
         <footer className="pg-footer">
             <Link className="logo" to="/">Marcuth Utils</Link>

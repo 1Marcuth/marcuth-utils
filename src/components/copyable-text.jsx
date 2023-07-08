@@ -1,6 +1,6 @@
 function CopyableText(props) {
     const text = props.children
-    const style = { cursor: "copy" }
+    const style = { cursor: "pointer" }
 
     return (
         <span style={style} title="Clique para copiar o texto!" onClick={(event) => {

@@ -28,6 +28,12 @@ function Home() {
                 <div className="box">
                     <ul className="utils-list">
                         <li>
+                            <Link to="/tools/makdown-editor">Editor markdown</Link>
+                        </li>
+                        <li>
+                            <Link to="/tools/html-editor">Editor HTML</Link>
+                        </li>
+                        <li>
                             <Link to="/tools/consultation-cep">Consuta de cep</Link>
                         </li>
                         <li>
@@ -38,9 +44,6 @@ function Home() {
                         </li>
                         <li>
                             <Link to="/tools/password-generator">Gerador de senhas</Link>
-                        </li>
-                        <li>
-                            <Link to="/tools/yt-video-tags">Tags de um vídeo do YouTube</Link>
                         </li>
                         <li>
                             <Link to="/tools/cpf-generator">Gerador de CPF</Link>
@@ -58,10 +61,7 @@ function Home() {
                             <Link target="_blank" to="https://ytdl.fun/">Baixar aúdio de um vídeo do YouTube</Link>
                         </li>
                         <li>
-                            <Link to="/tools/makdown-editor">Editor markdown</Link>
-                        </li>
-                        <li>
-                            <Link to="/tools/html-editor">Editor HTML</Link>
+                            <Link to="/tools/yt-video-tags">Tags de um vídeo do YouTube</Link>
                         </li>
                     </ul>
                 </div>
