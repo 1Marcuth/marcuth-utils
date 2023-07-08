@@ -18,7 +18,7 @@ function MarkdownEditor() {
             <Header/>
             <div className="container">
                 <h1>Editor Markdown</h1>
-                <iframe data-aa='2234557' src='//acceptable.a-ads.com/2234557' style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;'></iframe>
+                <iframe data-aa='2234557' src='//acceptable.a-ads.com/2234557' style={{border: '0px',padding: '0',width: '100%',height: '100%',overflow: 'hidden',backgroundColor: 'transparent'}}></iframe>
                 <div className="markdown-input-wrapper">
                     <h2 className="title">Entrada</h2>
                     <textarea
